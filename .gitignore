@@ -1,0 +1,7 @@
+node_modules
+*.old
+.vscode
+src/test/video/*
+!src/test/video/video1.mp4
+src/test/data/*
+!src/test/data/data1.js
