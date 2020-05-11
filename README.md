@@ -125,7 +125,7 @@ interface AnimationFrame {
 
 ```
 //十进制颜色代码转换
-DanmakuColor.getInstanceFromDec(decNumber:number);
+DanmakuColor.getInstanceFromDEC(decNumber:number);
 //HEX颜色代码转换，可包含透明值
 DanmakuColor.getInstanceFromHEX(hexString:string);
 //RGBA颜色代码转换,a可选（0-255）
