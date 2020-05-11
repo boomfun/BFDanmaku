@@ -92,7 +92,8 @@ interface DanmakuConfig {
 
 ## AnimatiomFrame
 
-动作对象，坐标系同 CSS 坐标系（左手系）
+动作对象，坐标系同 CSS 坐标系（左手系）  
+第一个frame作为初始状态，必须存在
 
 ```
 interface AnimationFrame {
