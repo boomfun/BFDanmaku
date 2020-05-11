@@ -129,7 +129,7 @@ DanmakuColor.getInstanceFromDEC(decNumber:number);
 //HEX颜色代码转换，可包含透明值
 DanmakuColor.getInstanceFromHEX(hexString:string);
 //RGBA颜色代码转换,a可选（0-255）
-DanmakuColor.getInstanceFromHEX(r: number, g: number, b: number, a?: number);
+DanmakuColor.getInstanceFromRGB(r: number, g: number, b: number, a?: number);
 ```
 
 # Parser
